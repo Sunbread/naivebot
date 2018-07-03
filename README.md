@@ -4,7 +4,7 @@ NaiveBot is a simple Telegram bot engine based on Flask and Gunicorn.
 
 ## Usage
 
-Before using, you need to install Flask and Gunicorn, and set the configuration file of NaiveBot.
+Before using, you need to install python-telegram-bot, Flask and Gunicorn, and set the configuration file of NaiveBot.
 
 The configuration is in the file `naivebot/config.py`.
 
