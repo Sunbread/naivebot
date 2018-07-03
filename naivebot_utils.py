@@ -4,7 +4,7 @@
 
 __author__ = 'Sunbread'
 
-def has_command(text, command):
+def is_command(text, command):
     _text = text.lower()
     _command = command.lower()
     if len(_text) < len(_command) + 1:
