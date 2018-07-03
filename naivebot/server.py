@@ -27,7 +27,7 @@ def _launcher(token):
     if json == None:
         flask.abort(405)
     update = telegram.Update.de_json(json, _bot)
-    _entryfunc(update)
+    _entryfunc(_bot, update)
     return 'ok'
 
 def entry(func):
